@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'my_beer_tracker_28497.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "my_beer_tracker_28497.settings")
 
 application = get_wsgi_application()
